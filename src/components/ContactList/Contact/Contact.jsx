@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import css from './Contact.module.css';
 import { deleteContact } from '../../../redux/contactsSlice';
 
+
 const Contact = ({ contact }) => {
   const dispatch = useDispatch();
 
@@ -14,7 +15,3 @@ const Contact = ({ contact }) => {
 };
 
 export default Contact;
-
-
-
-
